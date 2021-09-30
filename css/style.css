@@ -39,15 +39,10 @@ header {
   margin: 0 80px;
   position: relative;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 3;
-}
-
-.banner-info{
-  display: flex;
+  justify-content: left;
   align-items: center;
   gap: 40px;
+  z-index: 3;
 }
 
 .banner-content a {
@@ -162,13 +157,13 @@ ul.none-bullets p {
   line-height: 28px;
 }
 
-.container-btn-volver{
+.container-btn-about{
   display: flex;
   justify-content: center;
   margin: 25px 0 40px 0;
 }
 
-.container-btn-volver a {
+.container-btn-about a {
   text-decoration: none;
   font-family: 'Lato', sans-serif;
   font-weight: bolder;
@@ -178,7 +173,7 @@ ul.none-bullets p {
   padding: 8px 30px 10px 30px;
 }
 
-.container-btn-volver a:hover {  
+.container-btn-about a:hover {  
   color: white;
   background-color: #641413;
 }
